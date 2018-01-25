@@ -1,5 +1,5 @@
 <template>
-    <el-row :gutter="24" class="header">
+    <el-row class="header" :gutter="24">
      <div class="wrapper">
        <div class="logo"><img src="./logo.png" alt="" /></div>
        <div class="header-nav">
@@ -11,7 +11,7 @@
          </ul>
        </div>
      </div>
-    </el-row>   
+    </el-row>
 </template>
 
 <script>
@@ -44,9 +44,10 @@
   }
 .logo{
    width: 52px;
-   height: 52px;
+   height: 80px;
    float: left;
    margin-top: 14px;
+   line-height: 80px;
    
 }
 .header-nav{width: 80%;}
