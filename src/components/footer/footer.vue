@@ -31,11 +31,10 @@
   }
 </script>
 
-<style>
+<style lang="less">
 .footer{width: 100%;height: 292px;background-color: #3C7BE3;position: relative;}
 .footer-content{width: 22%;position: absolute;top: 92px;left:40%;}
 .contact{display: flex;justify-content:space-around;}
-.slogan{margin-top: 22px;}
-.slogan p{color:#fff;font-size: 16px;}
+.slogan{margin-top: 22px;p{color:#fff;font-size: 16px;}}
 
 </style>
