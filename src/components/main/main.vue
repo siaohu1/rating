@@ -137,18 +137,19 @@
 </template>
 
 <script>
-import {getLists} from "../../api";
-export default {
+  import {getLists} from "../../api";
+
+  export default {
     data() {
-      return{
-        list:[],
+      return {
+        list: [],
       }
     },
-    created(){
-    this.getList();
+    created() {
+      this.getList();
     },
-    methods:{
-      async getList(){
+    methods: {
+      async getList() {
         this.list = await getLists();
       }
     }
